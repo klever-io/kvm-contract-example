@@ -1,0 +1,11 @@
+[package]
+name = "empty-meta"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies.empty]
+path = ".."
+
+[dependencies.klever-sc-meta]
+workspace = true
