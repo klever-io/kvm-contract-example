@@ -963,6 +963,8 @@ dependencies = [
 [[package]]
 name = "klever-chain-scenario-format"
 version = "0.20.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bd45ce3268e777a7787a20555cee0f4e8e1bd9bfada20c124291624e930ce6c3"
 dependencies = [
  "bech32",
  "hex",
@@ -976,6 +978,8 @@ dependencies = [
 [[package]]
 name = "klever-chain-vm"
 version = "0.5.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e29505d3f875ef7aae4e64155ec0f6359ffa709c686b8aacf0045166ca05ec9c"
 dependencies = [
  "bitflags 1.3.2",
  "ed25519-dalek",
@@ -994,10 +998,14 @@ dependencies = [
 [[package]]
 name = "klever-chain-vm-executor"
 version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c0eac06a00b469d9f938b03b03df4093948c592973415c36c143a54ccf31d191"
 
 [[package]]
 name = "klever-sc"
 version = "0.43.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c2e34942b8c17eb79b0b6d9370c5f7eeec08343f36d6c907051d60918b3f9f26"
 dependencies = [
  "bitflags 1.3.2",
  "hex-literal",
@@ -1009,6 +1017,8 @@ dependencies = [
 [[package]]
 name = "klever-sc-codec"
 version = "0.18.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c8f72d7a74193261364db33dd7ba9c9d2ac9d5be59b029fbc9ec6715dd0c8790"
 dependencies = [
  "arrayvec",
  "klever-sc-codec-derive",
@@ -1018,6 +1028,8 @@ dependencies = [
 [[package]]
 name = "klever-sc-codec-derive"
 version = "0.18.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d67d688115ce517d020e38362f181f4c6a844c455a05339c8a75ca5a88194e72"
 dependencies = [
  "hex",
  "proc-macro2",
@@ -1028,6 +1040,8 @@ dependencies = [
 [[package]]
 name = "klever-sc-derive"
 version = "0.43.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b97d8f144bb2b5430fe3aa9a0b4c694943ff3435a3588bc066eab579de900d11"
 dependencies = [
  "hex",
  "proc-macro2",
@@ -1039,6 +1053,8 @@ dependencies = [
 [[package]]
 name = "klever-sc-meta"
 version = "0.43.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "262abdc75f8d06b34c83cfdb98b0c63f0d7341764be38e5702d7f175f088209b"
 dependencies = [
  "anyhow",
  "clap",
@@ -1064,6 +1080,8 @@ dependencies = [
 [[package]]
 name = "klever-sc-scenario"
 version = "0.43.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f171f95222a67a71cc5beb3ed9dd170cbbf0712bc8d0accaf24cf979f69a548d"
 dependencies = [
  "base64 0.13.1",
  "bech32",
@@ -1090,6 +1108,8 @@ dependencies = [
 [[package]]
 name = "klever-vm-sdk"
 version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "19ddb5666e217549ba4d68dcfd11df8c1ccb3815ae7b790a37ca7595bef9ec7b"
 dependencies = [
  "anyhow",
  "base64 0.13.1",

@@ -5,16 +5,12 @@ members = ["contracts/empty", "contracts/empty/meta"]
 
 [workspace.dependencies.klever-sc]
 version = "0.43.3"
-path = "../klever-vm-sdk-rs/framework/base"
 
 [workspace.dependencies.klever-sc-meta]
 version = "0.43.3"
-path = "../klever-vm-sdk-rs/framework/meta"
 
 [workspace.dev-dependencies.klever-sc-scenario]
 version = "0.43.3"
-path = "../klever-vm-sdk-rs/framework/scenario"
 
 [workspace.dependencies.klever-sc-scenario]
 version = "0.43.3"
-path = "../klever-vm-sdk-rs/framework/scenario"
